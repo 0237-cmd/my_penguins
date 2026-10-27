@@ -16,4 +16,11 @@ penguins|>
 ```
 
 ```{r}
+penguins|>
+  ggplot(mapping = aes(x = species, y = bill_length_mm, fill = species)) +
+  geom_boxplot() +
+  labs(title = "Species by Bill length",
+       x = "Species",
+       y = "Bill Length")
+
 ```
