@@ -1,0 +1,19 @@
+---
+title: "my_penguins"
+author: "Mya Cao"
+date: "10-27-2026"
+---
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+view(penguins)
+```
+
+```{r}
+penguins|>
+  count(bill_length_mm)
+```
+
+```{r}
+```
